@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1000" role="img" aria-labelledby="title">
+  <title id="title">شعار شركة المتقدم MCTC</title>
+  <rect width="840" height="1000" rx="36" fill="#fff"/>
+  <path d="M420 0 282 242l138 238 138-238Z" fill="#1d1b18"/>
+  <path d="M282 242 28 684h273l119-204Z" fill="#3795cf"/>
+  <path d="M558 242 420 480l115 204h273Z" fill="#79bd43"/>
+  <text x="420" y="935" fill="#101414" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="900" letter-spacing="-12" text-anchor="middle">MCTC</text>
+</svg>

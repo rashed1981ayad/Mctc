@@ -1,0 +1,1922 @@
+.reference-site-en > main {
+  width: 100%;
+  margin: 0;
+}
+
+.reference-site-en .landing-main {
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+}
+
+.reference-site-en .enterprise-main { width: 100%; margin: 0; }
+.reference-site-en .enterprise-hero {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: clamp(420px, 50svh, 500px);
+  min-height: 420px;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  background: #071420;
+}
+.reference-site-en .enterprise-hero > img,
+.reference-site-en .enterprise-hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.reference-site-en .enterprise-hero > img { z-index: -2; object-fit: cover; object-position: center; }
+.reference-site-en .small-office-hero > img { object-position: center; }
+.reference-site-en .access-control-hero > img { object-position: center; }
+.reference-site-en .audio-visual-hero > img { object-position: center; }
+.reference-site-en .bms-hero > img { object-position: center; }
+.reference-site-en .cctv-hero > img { object-position: center; }
+.reference-site-en .cloud-services-hero > img { object-position: center; }
+.reference-site-en .cyber-security-hero > img { object-position: center; }
+.reference-site-en .data-center-hero > img { object-position: center; }
+.reference-site-en .fire-alarm-hero > img { object-position: center; }
+.reference-site-en .managed-it-hero > img { object-position: center; }
+.reference-site-en .networking-hero > img { object-position: center; }
+.reference-site-en .enterprise-hero-shade {
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(2, 8, 14, 0.68), rgba(2, 8, 14, 0.18) 58%, rgba(2, 8, 14, 0.36));
+}
+.reference-site-en .enterprise-hero-content {
+  width: min(1240px, calc(100% - 4rem));
+  color: #fff;
+  text-align: start;
+}
+.reference-site-en .enterprise-hero h1 {
+  width: min(1120px, 100%);
+  margin: 0 auto 0 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-wrap: wrap;
+  text-shadow: none;
+}
+.reference-site-en .enterprise-hero-content p {
+  width: min(760px, 100%);
+  margin: 1rem auto 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.85;
+}
+.reference-site-en .enterprise-introduction {
+  width: 100%;
+  background: #fff;
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+.reference-site-en .enterprise-introduction-inner {
+  width: min(1240px, calc(100% - 4rem));
+  margin: 0 auto;
+}
+.reference-site-en .enterprise-intro-text {
+  max-width: 1120px;
+  margin: 0;
+  color: #293548;
+  font-size: clamp(1.08rem, 1.55vw, 1.35rem);
+  font-weight: 400;
+  line-height: 2.05;
+}
+.reference-site-en .access-control-introduction .enterprise-introduction-inner,
+.reference-site-en .audio-visual-introduction .enterprise-introduction-inner,
+.reference-site-en .bms-introduction .enterprise-introduction-inner,
+.reference-site-en .cctv-introduction .enterprise-introduction-inner,
+.reference-site-en .cloud-services-introduction .enterprise-introduction-inner,
+.reference-site-en .cyber-security-introduction .enterprise-introduction-inner,
+.reference-site-en .data-center-introduction .enterprise-introduction-inner,
+.reference-site-en .fire-alarm-introduction .enterprise-introduction-inner,
+.reference-site-en .managed-it-introduction .enterprise-introduction-inner,
+.reference-site-en .networking-introduction .enterprise-introduction-inner {
+  display: grid;
+  gap: 1.25rem;
+}
+.reference-site-en .access-control-scope .enterprise-services-grid,
+.reference-site-en .audio-visual-scope .enterprise-services-grid,
+.reference-site-en .bms-scope .enterprise-services-grid,
+.reference-site-en .cctv-scope .enterprise-services-grid,
+.reference-site-en .cloud-services-scope .enterprise-services-grid,
+.reference-site-en .cyber-security-scope .enterprise-services-grid,
+.reference-site-en .data-center-scope .enterprise-services-grid,
+.reference-site-en .fire-alarm-scope .enterprise-services-grid,
+.reference-site-en .managed-it-scope .enterprise-services-grid,
+.reference-site-en .networking-scope .enterprise-services-grid {
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+}
+.reference-site-en .cloud-service-title h3 {
+  display: grid;
+  gap: 0.4rem;
+}
+.reference-site-en .cloud-service-title h3 small {
+  color: #5f6d7c;
+  font-size: 0.78em;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.reference-site-en .retail-intro-copy {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: clamp(3rem, 6vw, 5.5rem);
+}
+.reference-site-en .enterprise-audience-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.65fr) minmax(0, 1.35fr);
+  gap: clamp(2.5rem, 7vw, 7rem);
+  margin: 5px;
+  border-top: 1px solid #e4eaf2;
+  padding: 10px;
+}
+.reference-site-en .enterprise-audience-heading { margin: 0; }
+.reference-site-en .enterprise-audience-heading > span {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.reference-site-en .enterprise-audience-heading h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(2rem, 3.3vw, 3.2rem);
+  line-height: 1.45;
+}
+.reference-site-en .enterprise-audience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 2.2rem;
+  counter-reset: audience;
+}
+.reference-site-en .enterprise-audience-card {
+  display: flex;
+  min-height: 92px;
+  align-items: center;
+  gap: 0.9rem;
+  border-bottom: 1px solid #e4eaf2;
+  padding: 1rem 0;
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.7;
+  counter-increment: audience;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .enterprise-audience-card::before {
+  content: counter(audience, decimal-leading-zero);
+  display: grid;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 1px solid rgba(21, 84, 209, 0.24);
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+.reference-site-en .enterprise-audience-card:hover {
+  color: var(--primary-dark);
+  transform: translateX(4px);
+}
+.reference-site-en .enterprise-services {
+  width: 100%;
+  background: #f4f7fb;
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+.reference-site-en .enterprise-services-inner {
+  width: min(1240px, calc(100% - 4rem));
+  margin: 0 auto;
+}
+.reference-site-en .enterprise-services-lead {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 1rem;
+  text-align: center;
+}
+.reference-site-en .enterprise-services-lead h2 {
+  margin: 0 auto;
+  color: var(--ink);
+  font-size: clamp(2.15rem, 4vw, 3.8rem);
+  line-height: 1.42;
+}
+.reference-site-en .enterprise-services-lead p {
+  max-width: 940px;
+  margin: 0 auto;
+  color: #475569;
+  font-size: clamp(1rem, 1.35vw, 1.15rem);
+  line-height: 2;
+}
+.reference-site-en .enterprise-services-visual {
+  width: min(850px, 74%);
+  margin: clamp(2.5rem, 5vw, 4.5rem) auto;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+.reference-site-en .enterprise-services-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.reference-site-en .enterprise-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+}
+.reference-site-en .enterprise-service-card {
+  border: 1px solid #e1e8f0;
+  border-radius: 22px;
+  background: #fff;
+  padding: clamp(1.3rem, 2.5vw, 2rem);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .enterprise-service-card:hover {
+  border-color: rgba(21, 84, 209, 0.3);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  transform: translateY(-4px);
+}
+.reference-site-en .enterprise-service-title {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.reference-site-en .enterprise-service-title i {
+  display: grid;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 15px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff;
+  font-size: 1.1rem;
+}
+.reference-site-en .enterprise-service-title h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  line-height: 1.6;
+}
+.reference-site-en .retail-services .enterprise-service-card {
+  display: flex;
+  flex-direction: column;
+}
+.reference-site-en .retail-service-english {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.reference-site-en .enterprise-service-card > p {
+  margin: 1.15rem 0 0;
+  color: #526071;
+  font-size: 0.96rem;
+  line-height: 1.95;
+}
+.reference-site-en .enterprise-service-card > .retail-service-partners {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: auto;
+  border-top: 1px solid #e3eaf3;
+  padding-top: 1rem;
+  color: #34445a;
+}
+.reference-site-en .retail-service-partners strong { color: var(--primary-dark); }
+.reference-site-en .retail-partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1rem;
+}
+.reference-site-en .retail-partner-logos img {
+  display: block;
+  width: auto;
+  max-width: 120px;
+  height: 34px;
+  object-fit: contain;
+}
+.reference-site-en .enterprise-service-card-wide { grid-column: 1 / -1; }
+.reference-site-en .retail-services .enterprise-services-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-bottom: 1px solid #dbe4ee;
+}
+.reference-site-en .retail-services .enterprise-service-card,
+.reference-site-en .retail-services .enterprise-service-card-wide {
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: minmax(250px, 0.72fr) minmax(0, 1.28fr);
+  gap: 1rem clamp(2rem, 6vw, 6rem);
+  border: 0;
+  border-top: 1px solid #dbe4ee;
+  border-radius: 0;
+  background: transparent;
+  padding: clamp(2rem, 4vw, 3.5rem) 0;
+  box-shadow: none;
+  transform: none;
+}
+.reference-site-en .retail-services .enterprise-service-card:hover {
+  border-color: #dbe4ee;
+  box-shadow: none;
+  transform: none;
+}
+.reference-site-en .retail-services .enterprise-service-title {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-items: flex-start;
+}
+.reference-site-en .retail-services .enterprise-service-title i {
+  border: 1px solid rgba(21, 84, 209, 0.18);
+  background: transparent;
+  color: var(--primary);
+}
+.reference-site-en .retail-services .enterprise-service-card > p:not(.retail-service-partners) {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0;
+  font-size: 1rem;
+}
+.reference-site-en .retail-services .enterprise-service-card > .retail-service-partners {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: end;
+  margin-top: 0.4rem;
+  border-top: 0;
+  padding-top: 0;
+}
+.reference-site-en .enterprise-workflow {
+  --workflow-sticky-top: 79px;
+  --workflow-scroll-distance: 760px;
+  position: relative;
+  width: 100%;
+  min-height: calc(100svh - var(--workflow-sticky-top) + var(--workflow-scroll-distance));
+  background: radial-gradient(circle at 75% 10%, rgba(19, 184, 166, 0.14), transparent 28rem), #030506;
+  padding: 0;
+  color: #fff;
+}
+.reference-site-en .enterprise-workflow-inner {
+  position: sticky;
+  top: var(--workflow-sticky-top);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: min(1240px, calc(100% - 4rem));
+  height: calc(100svh - var(--workflow-sticky-top));
+  margin: 0 auto;
+  padding: clamp(2rem, 5vh, 4.5rem) 0;
+  overflow: hidden;
+}
+.reference-site-en .enterprise-workflow-heading {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reference-site-en .enterprise-workflow-heading > span {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: #7bd7c9;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+.reference-site-en .enterprise-workflow-heading h2 {
+  margin: 0;
+  font-size: clamp(2.25rem, 4vw, 4rem);
+  line-height: 1.35;
+}
+.reference-site-en .enterprise-workflow-heading p {
+  margin: 1rem auto 0;
+  color: #b9c3c8;
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
+  line-height: 1.9;
+}
+.reference-site-en .enterprise-workflow-steps {
+  --workflow-progress: 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: clamp(3rem, 6vw, 5.5rem);
+}
+.reference-site-en .enterprise-workflow-line {
+  position: absolute;
+  top: 29px;
+  right: 8%;
+  left: 8%;
+  height: 2px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.18);
+}
+.reference-site-en .enterprise-workflow-line::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  transform: scaleX(var(--workflow-progress));
+  transform-origin: left center;
+  transition: transform 0.55s ease;
+}
+.reference-site-en .enterprise-workflow-step {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(34px) scale(0.96);
+  transition: opacity 0.6s ease, transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.reference-site-en .enterprise-workflow-step.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.reference-site-en .enterprise-workflow-number {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1.4rem;
+  place-items: center;
+  border: 2px solid rgba(123, 215, 201, 0.7);
+  border-radius: 50%;
+  background: #030506;
+  color: #7bd7c9;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+.reference-site-en .enterprise-workflow-step h3 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  line-height: 1.6;
+}
+.reference-site-en .enterprise-workflow-step p {
+  margin: 0.75rem 0 0;
+  color: #aeb9bf;
+  font-size: 0.88rem;
+  line-height: 1.85;
+}
+.reference-site-en .access-control-why .enterprise-workflow-heading,
+.reference-site-en .audio-visual-why .enterprise-workflow-heading,
+.reference-site-en .bms-why .enterprise-workflow-heading,
+.reference-site-en .cctv-why .enterprise-workflow-heading,
+.reference-site-en .cloud-services-why .enterprise-workflow-heading,
+.reference-site-en .cyber-security-why .enterprise-workflow-heading,
+.reference-site-en .data-center-why .enterprise-workflow-heading,
+.reference-site-en .fire-alarm-why .enterprise-workflow-heading,
+.reference-site-en .managed-it-why .enterprise-workflow-heading {
+  max-width: 940px;
+  padding: 1rem 1.5rem 0;
+}
+.reference-site-en .access-control-why .enterprise-workflow-heading h2,
+.reference-site-en .audio-visual-why .enterprise-workflow-heading h2,
+.reference-site-en .bms-why .enterprise-workflow-heading h2,
+.reference-site-en .cctv-why .enterprise-workflow-heading h2,
+.reference-site-en .cloud-services-why .enterprise-workflow-heading h2,
+.reference-site-en .cyber-security-why .enterprise-workflow-heading h2,
+.reference-site-en .data-center-why .enterprise-workflow-heading h2,
+.reference-site-en .fire-alarm-why .enterprise-workflow-heading h2,
+.reference-site-en .managed-it-why .enterprise-workflow-heading h2 {
+  font-size: clamp(1.9rem, 3.2vw, 3.25rem);
+  line-height: 1.5;
+}
+.reference-site-en .access-control-why .enterprise-workflow-steps,
+.reference-site-en .audio-visual-why .enterprise-workflow-steps,
+.reference-site-en .bms-why .enterprise-workflow-steps,
+.reference-site-en .cctv-why .enterprise-workflow-steps,
+.reference-site-en .cloud-services-why .enterprise-workflow-steps,
+.reference-site-en .cyber-security-why .enterprise-workflow-steps,
+.reference-site-en .data-center-why .enterprise-workflow-steps,
+.reference-site-en .fire-alarm-why .enterprise-workflow-steps,
+.reference-site-en .managed-it-why .enterprise-workflow-steps {
+  margin-top: clamp(3.5rem, 6vh, 5rem);
+}
+.reference-site-en .access-control-why .enterprise-workflow-number,
+.reference-site-en .audio-visual-why .enterprise-workflow-number,
+.reference-site-en .bms-why .enterprise-workflow-number,
+.reference-site-en .cctv-why .enterprise-workflow-number,
+.reference-site-en .cloud-services-why .enterprise-workflow-number,
+.reference-site-en .cyber-security-why .enterprise-workflow-number,
+.reference-site-en .data-center-why .enterprise-workflow-number,
+.reference-site-en .fire-alarm-why .enterprise-workflow-number,
+.reference-site-en .managed-it-why .enterprise-workflow-number {
+  margin-bottom: 1.9rem;
+}
+.reference-site-en .access-control-why .enterprise-workflow-step h3,
+.reference-site-en .audio-visual-why .enterprise-workflow-step h3,
+.reference-site-en .bms-why .enterprise-workflow-step h3,
+.reference-site-en .cctv-why .enterprise-workflow-step h3,
+.reference-site-en .cloud-services-why .enterprise-workflow-step h3,
+.reference-site-en .cyber-security-why .enterprise-workflow-step h3,
+.reference-site-en .data-center-why .enterprise-workflow-step h3,
+.reference-site-en .fire-alarm-why .enterprise-workflow-step h3,
+.reference-site-en .managed-it-why .enterprise-workflow-step h3 {
+  padding-top: 0.15rem;
+}
+.reference-site-en .access-control-why .enterprise-workflow-step p,
+.reference-site-en .audio-visual-why .enterprise-workflow-step p,
+.reference-site-en .bms-why .enterprise-workflow-step p,
+.reference-site-en .cctv-why .enterprise-workflow-step p,
+.reference-site-en .cloud-services-why .enterprise-workflow-step p,
+.reference-site-en .cyber-security-why .enterprise-workflow-step p,
+.reference-site-en .data-center-why .enterprise-workflow-step p,
+.reference-site-en .fire-alarm-why .enterprise-workflow-step p,
+.reference-site-en .managed-it-why .enterprise-workflow-step p {
+  margin-top: 1rem;
+  padding: 0 0.35rem 0.75rem;
+}
+.reference-site-en .small-office-workflow-outcome {
+  width: 100%;
+  background: #030506;
+  padding: 0 clamp(1rem, 5vw, 4rem) clamp(3.5rem, 7vw, 6rem);
+  color: #fff;
+}
+.reference-site-en .small-office-workflow-outcome p {
+  width: min(980px, 100%);
+  margin: 0 auto;
+  border-top: 1px solid rgba(123, 215, 201, 0.28);
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+  color: #d4dde1;
+  font-size: clamp(1rem, 1.35vw, 1.14rem);
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+}
+.reference-site-en .hero-slider {
+  position: relative;
+  width: 100%;
+  height: min(760px, calc(100svh - 79px));
+  min-height: 580px;
+  overflow: hidden;
+  background: #05080a;
+  isolation: isolate;
+}
+.reference-site-en .slides-track,
+.reference-site-en .hero-slide { position: absolute; inset: 0; }
+.reference-site-en .hero-slide {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(1.035);
+  transition: opacity 0.9s ease, transform 5.8s ease, visibility 0.9s;
+}
+.reference-site-en .hero-slide.is-active { visibility: visible; opacity: 1; transform: scale(1); z-index: 1; }
+.reference-site-en .hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+.reference-site-en .slide-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 0%, rgba(3, 9, 13, 0.42) 48%, rgba(2, 7, 10, 0.88) 100%);
+}
+.reference-site-en .slide-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 2;
+  display: flex;
+  width: min(780px, calc(100% - 7rem));
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  transform: translate(50%, -44%);
+  opacity: 0;
+  transition: opacity 0.65s ease 0.25s, transform 0.65s ease 0.25s;
+}
+.reference-site-en .hero-slide.is-active .slide-content { opacity: 1; transform: translate(50%, -50%); }
+.reference-site-en .slide-content p {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.25vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.85;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.55);
+}
+.reference-site-en .secondary-logo {
+  display: inline-grid;
+  margin-bottom: 1.6rem;
+  border-bottom: 3px solid var(--accent);
+  padding: 0.25rem 1rem 0.7rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.reference-site-en .secondary-logo strong { font-size: clamp(2rem, 4vw, 4rem); line-height: 1; }
+.reference-site-en .secondary-logo span { margin-top: 0.4rem; color: #98f0e6; font-size: 0.78rem; font-weight: 700; }
+.reference-site-en .slide-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.12);
+  padding: 0.9rem 1.4rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  backdrop-filter: blur(12px);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .slide-link:hover,
+.reference-site-en .slide-link:focus-visible { background: var(--primary); transform: translateY(-3px); }
+.reference-site-en .slider-arrow {
+  position: absolute;
+  top: auto;
+  bottom: 1.28rem;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 28px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  font-size: 2.1rem;
+  line-height: 1;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .slider-arrow:hover,
+.reference-site-en .slider-arrow:focus-visible { background: transparent; color: var(--accent); transform: scale(1.14); }
+.reference-site-en .slider-next { right: calc(50% - 112px); }
+.reference-site-en .slider-prev { left: calc(50% - 112px); }
+.reference-site-en .slider-dots {
+  position: absolute;
+  right: 50%;
+  bottom: 2rem;
+  z-index: 4;
+  display: flex;
+  gap: 0.55rem;
+  transform: translateX(50%);
+}
+.reference-site-en .slider-dots button {
+  width: 11px;
+  height: 11px;
+  border: 1px solid white;
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: width 0.25s ease, background 0.25s ease;
+}
+.reference-site-en .slider-dots button.is-active { width: 34px; background: white; }
+.reference-site-en .slider-progress { position: absolute; right: 0; bottom: 0; left: 0; z-index: 4; height: 3px; background: rgba(255,255,255,0.18); }
+.reference-site-en .slider-progress span { display: block; width: 0; height: 100%; background: linear-gradient(90deg, var(--accent), #fff); }
+.reference-site-en .slider-progress span.is-running { animation: slide-progress 5s linear forwards; }
+@keyframes slide-progress { to { width: 100%; } }
+
+.reference-site-en .solutions-scroll {
+  position: relative;
+  height: 3600px;
+  background: #fff;
+}
+.reference-site-en .solutions-sticky {
+  position: sticky;
+  top: 79px;
+  display: grid;
+  height: calc(100svh - 79px);
+  min-height: 0;
+  align-content: center;
+  overflow: hidden;
+  padding: clamp(1.25rem, 4vh, 3rem) 0 clamp(2rem, 4vh, 3.5rem);
+}
+.reference-site-en .solutions-heading {
+  width: min(1240px, calc(100% - 4rem));
+  margin: 0 auto clamp(1.5rem, 4vh, 2.6rem);
+}
+.reference-site-en .solutions-heading span {
+  color: var(--primary);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+.reference-site-en .solutions-heading h2 {
+  margin: 0.4rem 0 0;
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  letter-spacing: -0.04em;
+}
+.reference-site-en .solutions-viewport {
+  width: min(1240px, calc(100% - 4rem));
+  margin-inline: auto;
+  overflow: hidden;
+}
+.reference-site-en .solutions-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  padding: 0;
+  will-change: transform;
+  transition: none;
+}
+.reference-site-en .solution-card {
+  position: relative;
+  display: block;
+  width: var(--solution-card-width, clamp(250px, calc((100vw - 7rem) / 4), 340px));
+  height: clamp(190px, min(54vh, calc(100svh - 245px)), 520px);
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #101820;
+  color: white;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.13);
+}
+.reference-site-en .solution-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s ease, filter 0.45s ease;
+}
+.reference-site-en .solution-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(2, 8, 12, 0.92) 0%, rgba(2, 8, 12, 0.05) 56%);
+  transition: opacity 0.35s ease;
+}
+.reference-site-en .solution-title {
+  position: absolute;
+  right: auto;
+  bottom: 1.35rem;
+  left: 1.35rem;
+  z-index: 2;
+  width: fit-content;
+  max-width: calc(100% - 2.7rem);
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  color: #fff;
+  font-size: clamp(1.05rem, 1.45vw, 1.35rem);
+  font-weight: 900;
+  line-height: 1.55;
+  text-shadow: none;
+  box-shadow: none;
+  transition: opacity 0.25s ease, transform 0.35s ease;
+}
+.reference-site-en .solution-info {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(5, 19, 27, 0.98) 0%, rgba(8, 43, 51, 0.86) 58%, rgba(21, 84, 209, 0.25) 100%);
+  opacity: 0;
+  transform: translateY(18%);
+  transition: opacity 0.35s ease, transform 0.42s ease;
+  pointer-events: none;
+}
+.reference-site-en .solution-info h3 { margin: 0; font-size: 1.35rem; line-height: 1.55; }
+.reference-site-en .solution-info h3::after { content: ""; display: block; width: 42px; height: 3px; margin: 0.75rem 0; background: var(--accent); }
+.reference-site-en .solution-info p { margin: 0; color: #e4f4f2; font-size: 0.95rem; line-height: 1.85; }
+.reference-site-en .solution-info > span { align-self: flex-end; margin-top: 1.1rem; font-size: 2rem; transition: transform 0.2s ease; }
+.reference-site-en .solution-card:hover img,
+.reference-site-en .solution-card:focus-visible img { transform: scale(1.07); filter: saturate(0.78); }
+.reference-site-en .solution-card:hover .solution-title,
+.reference-site-en .solution-card:focus-visible .solution-title { opacity: 0; transform: translateY(1rem); }
+.reference-site-en .solution-card:hover .solution-info,
+.reference-site-en .solution-card:focus-visible .solution-info { opacity: 1; transform: translateY(0); }
+.reference-site-en .solution-card:hover .solution-info > span,
+.reference-site-en .solution-card:focus-visible .solution-info > span { transform: translateX(5px); }
+.reference-site-en .solutions-scroll-cue {
+  position: absolute;
+  right: 50%;
+  bottom: 1.8rem;
+  width: min(320px, calc(100% - 4rem));
+  height: 2px;
+  overflow: hidden;
+  background: #dce5eb;
+  transform: translateX(50%);
+}
+.reference-site-en .solutions-scroll-cue span { display: block; width: 0; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); }
+
+.reference-site-en .industry-section {
+  position: relative;
+  min-height: 760px;
+  overflow: hidden;
+  background: #030506;
+  color: #fff;
+}
+.reference-site-en .industry-slides { position: relative; min-height: 760px; }
+.reference-site-en .industry-slide {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(3rem);
+  transition: opacity 0.65s ease, transform 0.65s ease, visibility 0.65s;
+}
+.reference-site-en .industry-slide.is-active { visibility: visible; opacity: 1; transform: translateX(0); }
+.reference-site-en .industry-slide-inner {
+  display: grid;
+  width: min(1240px, calc(100% - 4rem));
+  min-height: 760px;
+  margin: 0 auto;
+  direction: ltr;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  align-items: center;
+  gap: clamp(2.5rem, 5vw, 5rem);
+  padding: 4.5rem 0 6rem;
+}
+.reference-site-en .industry-copy {
+  grid-column: 1;
+  grid-row: 1;
+  direction: ltr;
+  text-align: start;
+}
+.reference-site-en .industry-kicker {
+  display: block;
+  margin-bottom: 1rem;
+  color: #7bd7c9;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+.reference-site-en .industry-copy h2 {
+  max-width: 680px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2.2rem, 4.2vw, 4.6rem);
+  line-height: 1.32;
+  letter-spacing: normal;
+}
+.reference-site-en .industry-office-title {
+  font-size: clamp(2rem, 3.5vw, 3.8rem) !important;
+  line-height: 1.48 !important;
+}
+.reference-site-en .industry-office-title span { display: block; }
+.reference-site-en .industry-copy p {
+  max-width: 620px;
+  margin: 1.6rem 0 0;
+  color: #b9c3c8;
+  font-size: clamp(1rem, 1.15vw, 1.1rem);
+  line-height: 1.9;
+}
+.reference-site-en .industry-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 999px;
+  padding: 0.9rem 1.35rem;
+  color: #fff;
+  font-weight: 800;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .industry-link:hover,
+.reference-site-en .industry-link:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent);
+  transform: translateY(-3px);
+}
+.reference-site-en .industry-video-wrap {
+  grid-column: 2;
+  grid-row: 1;
+  width: min(90%, 590px);
+  justify-self: end;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: 26px;
+  background: #111;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.52);
+}
+.reference-site-en .industry-video-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reference-site-en .industry-controls {
+  position: absolute;
+  right: 50%;
+  bottom: 2.3rem;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transform: translateX(50%);
+}
+.reference-site-en .industry-arrow {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 28px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+  font-size: 2rem;
+}
+.reference-site-en .industry-arrow:hover,
+.reference-site-en .industry-arrow:focus-visible { color: var(--accent); }
+.reference-site-en .industry-dots { display: flex; align-items: center; gap: 0.55rem; }
+.reference-site-en .industry-dots button {
+  width: 9px;
+  height: 9px;
+  border: 1px solid rgba(255,255,255,0.75);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+.reference-site-en .industry-dots button.is-active { width: 28px; border-radius: 999px; background: #fff; }
+
+.reference-site-en .product-reels {
+  width: min(1240px, calc(100% - 2rem));
+  margin: clamp(4rem, 8vw, 7rem) auto;
+  background: var(--bg);
+}
+.reference-site-en .product-reels-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.7rem;
+}
+.reference-site-en .product-reels-heading span {
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+.reference-site-en .product-reels-heading h2 {
+  margin: 0.35rem 0 0;
+  color: var(--ink);
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  line-height: 1.25;
+}
+.reference-site-en .product-reels-heading p {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.reference-site-en .product-reels-stage { position: relative; }
+.reference-site-en .product-reels-track {
+  display: flex;
+  direction: ltr;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: x mandatory;
+  background: var(--bg);
+  scrollbar-width: none;
+  padding: 0.25rem 0;
+}
+.reference-site-en .product-reels-track::-webkit-scrollbar { display: none; }
+.reference-site-en .reels-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.88);
+  border-radius: 50%;
+  background: rgba(3, 12, 22, 0.86);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 2.15rem;
+  line-height: 1;
+  box-shadow: 0 12px 30px rgba(4, 15, 28, 0.24);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: background 0.2s ease, border-color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+.reference-site-en .reels-arrow-right { right: -26px; }
+.reference-site-en .reels-arrow-left { left: -26px; }
+.reference-site-en .reels-arrow:hover,
+.reference-site-en .reels-arrow:focus-visible {
+  border-color: var(--accent);
+  background: var(--primary);
+  transform: translateY(-50%) scale(1.06);
+}
+.reference-site-en .reels-arrow:focus-visible { outline: 3px solid rgba(21, 84, 209, 0.22); outline-offset: 4px; }
+.reference-site-en .reels-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+  transform: translateY(-50%);
+}
+.reference-site-en .reels-scrollbar {
+  position: relative;
+  width: min(210px, 38vw);
+  height: 4px;
+  margin: 1rem auto 0;
+  border-radius: 999px;
+  background: var(--line);
+  cursor: pointer;
+  touch-action: none;
+}
+.reference-site-en .reels-scrollbar span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  transform: translateX(0);
+}
+.reference-site-en .reels-scrollbar:focus-visible { outline: 3px solid rgba(21, 84, 209, 0.22); outline-offset: 5px; }
+.reference-site-en .product-reel {
+  flex: 0 0 calc((100% - 3rem) / 4);
+  min-width: 0;
+  overflow: hidden;
+  aspect-ratio: 267 / 476;
+  border-radius: 22px;
+  background: #0f172a;
+  box-shadow: none;
+  scroll-snap-align: start;
+}
+.reference-site-en .product-reel iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.reference-site-en .contact-cta {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(2rem, 6vw, 6rem);
+  width: min(1240px, calc(100% - 2rem));
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 28px;
+  background: #030506;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  color: #fff;
+  text-align: left;
+}
+.reference-site-en .contact-cta::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  background: url("/site-assets/world-map.webp") center / cover no-repeat;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 0%, #000 28%, rgba(0, 0, 0, 0.55) 48%, transparent 72%);
+  mask-image: radial-gradient(ellipse at center, #000 0%, #000 28%, rgba(0, 0, 0, 0.55) 48%, transparent 72%);
+  opacity: 0.1;
+  pointer-events: none;
+}
+.reference-site-en .contact-cta > * { position: relative; z-index: 1; }
+.reference-site-en .contact-cta-copy { max-width: 760px; }
+.reference-site-en .contact-cta h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1.3;
+}
+.reference-site-en .contact-cta p {
+  margin: 1.1rem 0 0;
+  color: #b9c3c8;
+  font-size: clamp(1rem, 1.35vw, 1.15rem);
+  line-height: 1.9;
+}
+.reference-site-en .contact-cta-button {
+  display: inline-flex;
+  flex: 0 1 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  width: fit-content;
+  max-width: min(100%, 320px);
+  border-radius: 999px;
+  background: var(--accent);
+  padding: 0.8rem 1.2rem;
+  color: #03110f;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.reference-site-en .contact-cta-button:hover,
+.reference-site-en .contact-cta-button:focus-visible { background: #39d4c2; transform: translateY(-3px); }
+.reference-site-en .contact-cta-actions {
+  display: grid;
+  flex: 0 1 min(300px, 100%);
+  gap: 0.75rem;
+}
+.reference-site-en .contact-cta-actions .contact-cta-button { width: 100%; }
+.reference-site-en .contact-cta-button-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  color: #fff;
+}
+.reference-site-en .contact-cta-button-secondary:hover,
+.reference-site-en .contact-cta-button-secondary:focus-visible {
+  border-color: var(--accent);
+  background: rgba(123, 215, 201, 0.12);
+}
+
+@media (max-width: 1024px) {
+  .reference-site-en .enterprise-workflow-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+  .reference-site-en .enterprise-workflow-line { display: none; }
+  .reference-site-en .enterprise-workflow-step { border-top: 1px solid rgba(255, 255, 255, 0.14); padding-top: 1.2rem; text-align: start; }
+  .reference-site-en .enterprise-workflow-number { margin: 0 auto 1rem 0; }
+  .reference-site-en .enterprise-workflow-step:last-child { grid-column: 1 / -1; }
+  .reference-site-en .product-reel { flex-basis: calc((100% - 1rem) / 2); }
+}
+
+@media (max-width: 640px) {
+  .reference-site-en .enterprise-hero { height: 48svh; min-height: 360px; max-height: 460px; }
+  .reference-site-en .enterprise-hero > img { object-position: 40% center; }
+  .reference-site-en .small-office-hero > img { object-position: 30% center; }
+  .reference-site-en .access-control-hero > img { object-position: 27% center; }
+  .reference-site-en .audio-visual-hero > img { object-position: 28% center; }
+  .reference-site-en .bms-hero > img { object-position: 65% center; }
+  .reference-site-en .cctv-hero > img { object-position: 30% center; }
+  .reference-site-en .cloud-services-hero > img { object-position: 70% center; }
+  .reference-site-en .cyber-security-hero > img { object-position: 28% center; }
+  .reference-site-en .data-center-hero > img { object-position: 36% center; }
+  .reference-site-en .fire-alarm-hero > img { object-position: 62% center; }
+  .reference-site-en .managed-it-hero > img { object-position: 30% center; }
+  .reference-site-en .networking-hero > img { object-position: 78% center; }
+  .reference-site-en .enterprise-hero-shade { background: linear-gradient(0deg, rgba(2, 8, 14, 0.76), rgba(2, 8, 14, 0.2) 70%, rgba(2, 8, 14, 0.42)); }
+  .reference-site-en .enterprise-hero-content { width: calc(100% - 2rem); }
+  .reference-site-en .enterprise-hero h1 { font-size: 1.65rem; line-height: 1.55; }
+  .reference-site-en .enterprise-hero-content p { margin-top: 0.65rem; font-size: 1.05rem; line-height: 1.75; }
+  .reference-site-en .enterprise-introduction { padding: 3.5rem 0; }
+  .reference-site-en .enterprise-introduction-inner { width: calc(100% - 2rem); }
+  .reference-site-en .enterprise-intro-text { font-size: 1rem; line-height: 1.95; }
+  .reference-site-en .enterprise-audience-layout { grid-template-columns: 1fr; gap: 2rem; margin: 5px; padding: 10px; }
+  .reference-site-en .enterprise-audience-heading { margin: 0; }
+  .reference-site-en .enterprise-audience-heading h2 { font-size: 1.8rem; }
+  .reference-site-en .enterprise-audience-grid { grid-template-columns: 1fr; gap: 0.8rem; }
+  .reference-site-en .enterprise-audience-card { min-height: 76px; padding: 0.8rem 0; }
+  .reference-site-en .enterprise-services { padding: 3.5rem 0; }
+  .reference-site-en .enterprise-services-inner { width: calc(100% - 2rem); }
+  .reference-site-en .enterprise-services-lead { grid-template-columns: 1fr; gap: 1rem; }
+  .reference-site-en .enterprise-services-lead h2 { font-size: 2rem; }
+  .reference-site-en .enterprise-services-lead p { font-size: 1rem; line-height: 1.9; }
+  .reference-site-en .enterprise-services-visual { width: 100%; margin: 2rem 0; border-radius: 0; padding: 0; }
+  .reference-site-en .enterprise-services-visual img { border-radius: 0; }
+  .reference-site-en .enterprise-services-grid { grid-template-columns: 1fr; gap: 0.9rem; }
+  .reference-site-en .enterprise-service-card,
+.reference-site-en .enterprise-service-card-wide { grid-column: auto; border-radius: 18px; padding: 1.15rem; }
+  .reference-site-en .enterprise-service-title { align-items: flex-start; }
+  .reference-site-en .enterprise-service-title i { flex-basis: 42px; width: 42px; height: 42px; border-radius: 13px; }
+  .reference-site-en .enterprise-service-card > p { font-size: 0.93rem; line-height: 1.9; }
+  .reference-site-en .retail-services .enterprise-services-grid { gap: 0; }
+  .reference-site-en .retail-services .enterprise-service-card,
+.reference-site-en .retail-services .enterprise-service-card-wide {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    border-radius: 0;
+    padding: 1.5rem 0;
+  }
+  .reference-site-en .retail-services .enterprise-service-title,
+.reference-site-en .retail-services .enterprise-service-card > p:not(.retail-service-partners),
+.reference-site-en .retail-services .enterprise-service-card > .retail-service-partners {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .reference-site-en .retail-services .enterprise-service-card > p:not(.retail-service-partners) { margin-top: 0.15rem; }
+  .reference-site-en .retail-services .enterprise-service-card > .retail-service-partners { margin-top: 0.35rem; }
+  .reference-site-en .enterprise-workflow {
+    --workflow-sticky-top: 65px;
+    --workflow-scroll-distance: 820px;
+  }
+  .reference-site-en .enterprise-workflow-inner { width: calc(100% - 2rem); padding: 1.25rem 0; }
+  .reference-site-en .enterprise-workflow-heading > span { margin-bottom: 0.35rem; }
+  .reference-site-en .enterprise-workflow-heading h2 { font-size: clamp(1.7rem, 8vw, 2.2rem); }
+  .reference-site-en .enterprise-workflow-heading p { margin-top: 0.45rem; font-size: 0.9rem; line-height: 1.65; }
+  .reference-site-en .enterprise-workflow-steps { grid-template-columns: 1fr; gap: clamp(0.55rem, 1.8vh, 1.1rem); margin-top: clamp(1.15rem, 3vh, 2rem); }
+  .reference-site-en .enterprise-workflow-steps::before {
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    bottom: 26px;
+    z-index: 0;
+    width: 2px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  .reference-site-en .enterprise-workflow-steps::after {
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    bottom: 26px;
+    z-index: 0;
+    width: 2px;
+    background: linear-gradient(180deg, var(--accent), var(--primary));
+    transform: scaleY(var(--workflow-progress));
+    transform-origin: center top;
+    transition: transform 0.5s ease;
+  }
+  .reference-site-en .enterprise-workflow-step,
+.reference-site-en .enterprise-workflow-step:last-child {
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 52px minmax(0, 1fr);
+    column-gap: 1rem;
+    border-top: 0;
+    padding-top: 0;
+    text-align: start;
+  }
+  .reference-site-en .enterprise-workflow-number { grid-column: 1; grid-row: 1 / span 2; width: 52px; height: 52px; margin: 0; }
+  .reference-site-en .enterprise-workflow-step h3 { grid-column: 2; align-self: end; }
+  .reference-site-en .enterprise-workflow-step p { grid-column: 2; margin-top: 0.2rem; font-size: 0.8rem; line-height: 1.55; }
+  .reference-site-en .access-control-why .enterprise-workflow-inner,
+.reference-site-en .audio-visual-why .enterprise-workflow-inner,
+.reference-site-en .bms-why .enterprise-workflow-inner,
+.reference-site-en .cctv-why .enterprise-workflow-inner { justify-content: flex-start; padding: 1.7rem 0 1.4rem; }
+  .reference-site-en .access-control-why .enterprise-workflow-heading,
+.reference-site-en .audio-visual-why .enterprise-workflow-heading,
+.reference-site-en .bms-why .enterprise-workflow-heading,
+.reference-site-en .cctv-why .enterprise-workflow-heading { padding: 0.35rem 0.5rem 0; }
+  .reference-site-en .access-control-why .enterprise-workflow-heading h2,
+.reference-site-en .audio-visual-why .enterprise-workflow-heading h2,
+.reference-site-en .bms-why .enterprise-workflow-heading h2,
+.reference-site-en .cctv-why .enterprise-workflow-heading h2 { font-size: clamp(1.45rem, 6.4vw, 1.85rem); line-height: 1.55; }
+  .reference-site-en .access-control-why .enterprise-workflow-steps,
+.reference-site-en .audio-visual-why .enterprise-workflow-steps,
+.reference-site-en .bms-why .enterprise-workflow-steps,
+.reference-site-en .cctv-why .enterprise-workflow-steps { gap: clamp(0.75rem, 2vh, 1.15rem); margin-top: 1.65rem; }
+  .reference-site-en .access-control-why .enterprise-workflow-number,
+.reference-site-en .audio-visual-why .enterprise-workflow-number,
+.reference-site-en .bms-why .enterprise-workflow-number,
+.reference-site-en .cctv-why .enterprise-workflow-number { margin: 0; }
+  .reference-site-en .access-control-why .enterprise-workflow-step h3,
+.reference-site-en .audio-visual-why .enterprise-workflow-step h3,
+.reference-site-en .bms-why .enterprise-workflow-step h3,
+.reference-site-en .cctv-why .enterprise-workflow-step h3 { padding-top: 0.2rem; }
+  .reference-site-en .access-control-why .enterprise-workflow-step p,
+.reference-site-en .audio-visual-why .enterprise-workflow-step p,
+.reference-site-en .bms-why .enterprise-workflow-step p,
+.reference-site-en .cctv-why .enterprise-workflow-step p { margin-top: 0.35rem; padding: 0 0 0.35rem; }
+  .reference-site-en .hero-slider { height: calc(100svh - 65px); min-height: 560px; }
+  .reference-site-en .slide-shade { background: linear-gradient(0deg, rgba(2, 7, 10, 0.92) 0%, rgba(2, 7, 10, 0.5) 60%, rgba(0,0,0,0.08) 100%); }
+  .reference-site-en .slide-content { top: 50%; right: 50%; bottom: auto; width: calc(100% - 5.5rem); transform: translate(50%, -44%); }
+  .reference-site-en .hero-slide.is-active .slide-content { transform: translate(50%, -50%); }
+  .reference-site-en .slide-content p { font-size: clamp(1.08rem, 5vw, 1.4rem); line-height: 1.75; }
+  .reference-site-en .secondary-logo { margin-bottom: 1rem; }
+  .reference-site-en .slide-link { width: 100%; justify-content: center; margin-top: 1.2rem; }
+  .reference-site-en .slider-arrow { top: auto; bottom: 1.28rem; width: 32px; height: 28px; font-size: 1.8rem; }
+  .reference-site-en .slider-next { right: calc(50% - 106px); }
+  .reference-site-en .slider-prev { left: calc(50% - 106px); }
+  .reference-site-en .slider-dots { bottom: 2rem; }
+  .reference-site-en .solutions-sticky { padding: 2.5rem 0 2rem; }
+  .reference-site-en .solutions-heading { width: calc(100% - 2rem); margin-bottom: 1rem; }
+  .reference-site-en .solutions-heading h2 { font-size: 2rem; }
+  .reference-site-en .solutions-viewport { width: calc(100% - 2rem); overflow: hidden; }
+  .reference-site-en .solutions-track { gap: 0.8rem; padding: 0; }
+  .reference-site-en .solution-card { width: var(--solution-card-width, 42vw); height: min(54vh, 360px); }
+  .reference-site-en .solution-title { right: auto; bottom: 0.9rem; left: 0.85rem; z-index: 4; max-width: calc(100% - 1.7rem); font-size: 0.88rem; line-height: 1.5; }
+  .reference-site-en .solution-info { padding: 0.9rem; }
+  .reference-site-en .solution-info { opacity: 1; transform: none; background: linear-gradient(to top, rgba(5, 19, 27, 0.96) 0%, rgba(5, 19, 27, 0.16) 68%, transparent 100%); }
+  .reference-site-en .solution-info h3,
+.reference-site-en .solution-info p { display: none; }
+  .reference-site-en .solution-info > span { margin-top: 0; }
+  .reference-site-en .solution-title { opacity: 1 !important; transform: none !important; }
+  .reference-site-en .solutions-scroll-cue { bottom: 1rem; }
+  .reference-site-en .industry-section,
+.reference-site-en .industry-slides { min-height: 760px; }
+  .reference-site-en .industry-slide-inner {
+    width: calc(100% - 2rem);
+    min-height: 760px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1.5rem;
+    padding: 3.5rem 0 5.5rem;
+  }
+  .reference-site-en .industry-copy { grid-column: 1; grid-row: 2; text-align: center; }
+  .reference-site-en .industry-copy h2,
+.reference-site-en .industry-copy p { margin-inline: auto; }
+  .reference-site-en .industry-copy h2 { font-size: clamp(2rem, 9vw, 3rem); }
+  .reference-site-en .industry-copy p { margin-top: 1rem; font-size: 0.95rem; }
+  .reference-site-en .industry-link { margin-top: 1.25rem; }
+  .reference-site-en .industry-video-wrap { grid-column: 1; grid-row: 1; width: min(78vw, 340px); justify-self: center; border-radius: 20px; }
+  .reference-site-en .industry-controls { bottom: 1.6rem; }
+  .reference-site-en .product-reels { width: calc(100% - 1rem); margin-block: 3.5rem; }
+  .reference-site-en .product-reels-heading { align-items: start; flex-direction: column; gap: 0.4rem; padding-inline: 0.5rem; }
+  .reference-site-en .product-reels-heading h2 { font-size: 2.2rem; }
+  .reference-site-en .product-reels-heading p { margin: 0; }
+  .reference-site-en .product-reel { flex-basis: 72vw; border-radius: 18px; }
+  .reference-site-en .reels-arrow { width: 44px; height: 44px; font-size: 1.85rem; }
+  .reference-site-en .reels-arrow-right { right: 0.35rem; }
+  .reference-site-en .reels-arrow-left { left: 0.35rem; }
+  .reference-site-en .contact-cta { align-items: stretch; flex-direction: column; gap: 1.5rem; padding: 2rem 1.4rem; text-align: left; }
+  .reference-site-en .contact-cta h2 { font-size: 2.15rem; }
+  .reference-site-en .contact-cta-button { width: fit-content; max-width: 100%; }
+  .reference-site-en .contact-cta-actions { width: 100%; max-width: 300px; }
+}
+
+@media (max-width: 640px) {
+  .reference-site-en .cloud-services-why .enterprise-workflow-inner,
+.reference-site-en .cyber-security-why .enterprise-workflow-inner,
+.reference-site-en .data-center-why .enterprise-workflow-inner,
+.reference-site-en .fire-alarm-why .enterprise-workflow-inner,
+.reference-site-en .managed-it-why .enterprise-workflow-inner { justify-content: flex-start; padding: 1.7rem 0 1.4rem; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-heading,
+.reference-site-en .cyber-security-why .enterprise-workflow-heading,
+.reference-site-en .data-center-why .enterprise-workflow-heading,
+.reference-site-en .fire-alarm-why .enterprise-workflow-heading,
+.reference-site-en .managed-it-why .enterprise-workflow-heading { padding: 0.35rem 0.5rem 0; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-heading h2,
+.reference-site-en .cyber-security-why .enterprise-workflow-heading h2,
+.reference-site-en .data-center-why .enterprise-workflow-heading h2,
+.reference-site-en .fire-alarm-why .enterprise-workflow-heading h2,
+.reference-site-en .managed-it-why .enterprise-workflow-heading h2 { font-size: clamp(1.45rem, 6.4vw, 1.85rem); line-height: 1.55; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-steps,
+.reference-site-en .cyber-security-why .enterprise-workflow-steps,
+.reference-site-en .data-center-why .enterprise-workflow-steps,
+.reference-site-en .fire-alarm-why .enterprise-workflow-steps,
+.reference-site-en .managed-it-why .enterprise-workflow-steps { gap: clamp(0.75rem, 2vh, 1.15rem); margin-top: 1.65rem; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-number,
+.reference-site-en .cyber-security-why .enterprise-workflow-number,
+.reference-site-en .data-center-why .enterprise-workflow-number,
+.reference-site-en .fire-alarm-why .enterprise-workflow-number,
+.reference-site-en .managed-it-why .enterprise-workflow-number { margin: 0; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-step h3,
+.reference-site-en .cyber-security-why .enterprise-workflow-step h3,
+.reference-site-en .data-center-why .enterprise-workflow-step h3,
+.reference-site-en .fire-alarm-why .enterprise-workflow-step h3,
+.reference-site-en .managed-it-why .enterprise-workflow-step h3 { padding-top: 0.2rem; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-step p,
+.reference-site-en .cyber-security-why .enterprise-workflow-step p,
+.reference-site-en .data-center-why .enterprise-workflow-step p,
+.reference-site-en .fire-alarm-why .enterprise-workflow-step p,
+.reference-site-en .managed-it-why .enterprise-workflow-step p { margin-top: 0.35rem; padding: 0 0 0.35rem; }
+
+  .reference-site-en .managed-it-why {
+    --workflow-scroll-distance: 0px;
+    min-height: auto;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-inner {
+    position: relative;
+    top: auto;
+    height: auto;
+    min-height: 0;
+    padding: 3.25rem 0 3.75rem;
+    overflow: visible;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-heading { padding: 0 0.75rem 0.75rem; }
+  .reference-site-en .managed-it-why .enterprise-workflow-steps {
+    gap: 1.4rem;
+    margin-top: 2.25rem;
+    padding: 0 0.35rem;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-step,
+.reference-site-en .managed-it-why .enterprise-workflow-step:last-child {
+    column-gap: 1.15rem;
+    padding: 0.45rem 0 0.9rem;
+    opacity: 1;
+    transform: none;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-step h3 {
+    padding: 0 0.25rem;
+    line-height: 1.7;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-step p {
+    margin-top: 0.45rem;
+    padding: 0 0.25rem 0.65rem;
+    font-size: 0.86rem;
+    line-height: 1.75;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-steps::after { transform: scaleY(1); }
+}
+
+@media (min-width: 901px) {
+  .reference-site-en .audio-visual-scope .enterprise-services-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .reference-site-en .audio-visual-scope .enterprise-service-card { grid-column: span 2; }
+  .reference-site-en .audio-visual-scope .enterprise-service-card:nth-last-child(-n + 2) { grid-column: span 3; }
+  .reference-site-en .audio-visual-why .enterprise-workflow-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reference-site-en .audio-visual-why .enterprise-workflow-line { right: 12.5%; left: 12.5%; }
+  .reference-site-en .bms-why .enterprise-workflow-line { right: 10%; left: 10%; }
+  .reference-site-en .cctv-scope .enterprise-services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reference-site-en .cctv-why .enterprise-workflow-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reference-site-en .cctv-why .enterprise-workflow-line { right: 12.5%; left: 12.5%; }
+  .reference-site-en .cloud-services-scope .enterprise-services-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .reference-site-en .cloud-services-scope .enterprise-service-card { grid-column: span 2; }
+  .reference-site-en .cloud-services-scope .enterprise-service-card:nth-last-child(-n + 2) { grid-column: span 3; }
+  .reference-site-en .cloud-services-why .enterprise-workflow-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reference-site-en .cloud-services-why .enterprise-workflow-line { right: 12.5%; left: 12.5%; }
+  .reference-site-en .cyber-security-why .enterprise-workflow-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reference-site-en .cyber-security-why .enterprise-workflow-line { right: 12.5%; left: 12.5%; }
+  .reference-site-en .data-center-why .enterprise-workflow-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .reference-site-en .data-center-why .enterprise-workflow-line { right: 12.5%; left: 12.5%; }
+  .reference-site-en .fire-alarm-scope .enterprise-services-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .reference-site-en .fire-alarm-scope .enterprise-service-card { grid-column: span 2; }
+  .reference-site-en .fire-alarm-scope .enterprise-service-card:nth-last-child(-n + 2) { grid-column: span 3; }
+  .reference-site-en .fire-alarm-why .enterprise-workflow-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .reference-site-en .fire-alarm-why .enterprise-workflow-line { right: 16.6667%; left: 16.6667%; }
+  .reference-site-en .managed-it-why .enterprise-workflow-inner {
+    width: min(1580px, calc(100% - 2rem));
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-line { right: 10%; left: 10%; }
+  .reference-site-en .managed-it-why .enterprise-workflow-steps {
+    gap: clamp(0.65rem, 1.2vw, 1.15rem);
+    margin-top: clamp(3.75rem, 6.5vh, 5.25rem);
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-step { padding-inline: 0.25rem; }
+  .reference-site-en .managed-it-why .enterprise-workflow-step h3 {
+    font-size: clamp(0.95rem, 1.08vw, 1.14rem);
+    line-height: 1.65;
+  }
+  .reference-site-en .managed-it-why .enterprise-workflow-step p {
+    margin-top: 0.8rem;
+    padding: 0 0.1rem 1rem;
+    font-size: clamp(0.78rem, 0.82vw, 0.9rem);
+    line-height: 1.9;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+  .reference-site-en .cctv-scope .enterprise-services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reference-site-en .audio-visual-why .enterprise-workflow-step:last-child,
+.reference-site-en .cctv-why .enterprise-workflow-step:last-child,
+.reference-site-en .cloud-services-why .enterprise-workflow-step:last-child,
+.reference-site-en .cyber-security-why .enterprise-workflow-step:last-child,
+.reference-site-en .data-center-why .enterprise-workflow-step:last-child { grid-column: auto; }
+}
+
+@media (min-width: 641px) and (max-height: 600px) {
+  .reference-site-en .solutions-heading { margin-bottom: 0.75rem; }
+  .reference-site-en .solutions-heading h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+  .reference-site-en .solution-title { bottom: 1rem; font-size: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reference-site-en .hero-slide,
+.reference-site-en .slide-content { transition: none; }
+  .reference-site-en .hero-slide { transform: none; }
+  .reference-site-en .solutions-track { transition: none; }
+  .reference-site-en .industry-slide { transition: none; }
+  .reference-site-en .enterprise-workflow-step { transform: none; transition: none; }
+  .reference-site-en .enterprise-workflow-line::after,
+.reference-site-en .enterprise-workflow-steps::after { transition: none; }
+  .reference-site-en .slider-progress span.is-running { animation: none; width: 100%; }
+}
+
+/* About page */
+.reference-site-en .about-page { background: #f5f8fc; }
+.reference-site-en .about-main { width: 100%; overflow: hidden; }
+.reference-site-en .about-hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  min-height: clamp(600px, calc(100svh - 78px), 820px);
+  grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.9fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 7rem);
+  padding: clamp(4rem, 8vw, 8rem) max(1rem, calc((100vw - 1240px) / 2));
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(46, 224, 195, 0.34), transparent 25rem),
+    radial-gradient(circle at 8% 88%, rgba(41, 115, 224, 0.46), transparent 30rem),
+    linear-gradient(125deg, #061b38 0%, #0a3973 48%, #087e83 100%);
+  color: #fff;
+}
+.reference-site-en .about-hero-grid {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  opacity: 0.15;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: linear-gradient(to left, #000, transparent 82%);
+}
+.reference-site-en .about-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: auto -8% -48% 28%;
+  height: 72%;
+  border-radius: 50%;
+  background: rgba(0, 8, 28, 0.42);
+  filter: blur(8px);
+}
+.reference-site-en .about-hero-orbit {
+  position: absolute;
+  z-index: -1;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.reference-site-en .about-orbit-one { top: -18rem; left: -12rem; width: 46rem; aspect-ratio: 1; }
+.reference-site-en .about-orbit-two { right: 33%; bottom: -19rem; width: 38rem; aspect-ratio: 1; }
+.reference-site-en .about-hero-content { max-width: 760px; }
+.reference-site-en .about-eyebrow,
+.reference-site-en .section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--accent);
+  font-size: 0.86rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+.reference-site-en .about-eyebrow::before,
+.reference-site-en .section-kicker::before { content: ""; width: 30px; height: 2px; border-radius: 99px; background: currentColor; }
+.reference-site-en .about-hero h1 {
+  max-width: 780px;
+  margin: 1.15rem 0 1.5rem;
+  font-size: clamp(2.6rem, 5vw, 4.8rem);
+  line-height: 1.25;
+  letter-spacing: -0.035em;
+}
+.reference-site-en .about-hero-content > p {
+  max-width: 760px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: clamp(1.05rem, 1.45vw, 1.3rem);
+  line-height: 2;
+}
+.reference-site-en .about-hero-visual {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 430px;
+}
+.reference-site-en .about-tech-core {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: min(27vw, 340px);
+  min-width: 280px;
+  aspect-ratio: 1;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.27), rgba(5, 30, 71, 0.46) 62%);
+  box-shadow: inset 0 0 70px rgba(69, 226, 206, 0.14), 0 35px 90px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(16px);
+}
+.reference-site-en .about-tech-core::before,
+.reference-site-en .about-tech-core::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(124, 231, 218, 0.3);
+  border-radius: 50%;
+  inset: -28px;
+}
+.reference-site-en .about-tech-core::after { inset: -58px; border-style: dashed; animation: about-orbit-spin 24s linear infinite; }
+.reference-site-en .about-tech-core strong {
+  max-width: 78%;
+  color: #fff;
+  font-size: clamp(2.4rem, 4.2vw, 4.2rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  text-align: center;
+  text-shadow: 0 12px 34px rgba(0, 12, 40, 0.34);
+}
+.reference-site-en .about-tech-chip {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(3, 20, 52, 0.62);
+  padding: 0.8rem 1rem;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  backdrop-filter: blur(12px);
+}
+.reference-site-en .about-tech-chip i { color: #62e4d2; }
+.reference-site-en .chip-one { top: 6%; right: 2%; }
+.reference-site-en .chip-two { bottom: 8%; right: 4%; }
+.reference-site-en .chip-three { left: 0; bottom: 28%; }
+@keyframes about-orbit-spin { to { transform: rotate(360deg); } }
+
+.reference-site-en .about-introduction { background: #fff; padding: clamp(5rem, 9vw, 9rem) 1rem; }
+.reference-site-en .about-introduction-inner {
+  display: grid;
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  grid-template-columns: minmax(210px, 0.32fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2.5rem, 7vw, 7rem);
+}
+.reference-site-en .about-logo-panel {
+  position: relative;
+  display: grid;
+  min-height: 300px;
+  place-items: center;
+  margin: 0;
+  padding: clamp(0.5rem, 2vw, 1.5rem);
+}
+.reference-site-en .about-logo-panel img {
+  display: block;
+  width: min(100%, 280px);
+  max-height: 300px;
+  object-fit: contain;
+}
+.reference-site-en .about-introduction-copy h2,
+.reference-site-en .about-section-heading h2,
+.reference-site-en .about-operations-intro h2 {
+  margin: 0.8rem 0 1.2rem;
+  font-size: clamp(2.15rem, 4.2vw, 4.3rem);
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+.reference-site-en .about-introduction-copy p,
+.reference-site-en .about-operations-intro p {
+  margin: 0.8rem 0 0;
+  color: #44536a;
+  font-size: clamp(1rem, 1.2vw, 1.12rem);
+  line-height: 2;
+}
+
+.reference-site-en .about-section-heading { max-width: 760px; }
+.reference-site-en .about-section-heading > p { margin: 0; color: var(--muted); font-size: 1.05rem; line-height: 1.8; }
+
+.reference-site-en .about-values { background: #fff; padding: clamp(5rem, 9vw, 9rem) max(1rem, calc((100vw - 1240px) / 2)); }
+.reference-site-en .about-values-embedded {
+  width: min(1240px, 100%);
+  margin: clamp(0rem, 0vw, 0rem) auto 0;
+  padding: clamp(2rem, 3vw, 3rem) 0 0;
+}
+.reference-site-en .about-values-intro { display: grid; grid-template-columns: minmax(280px, 0.65fr) minmax(0, 1fr); gap: clamp(2rem, 7vw, 7rem); align-items: end; }
+.reference-site-en .about-values-intro > p { margin: 0; color: #44536a; font-size: 1.05rem; line-height: 2; }
+.reference-site-en .value-cards { display: grid; margin-top: 3.5rem; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem; }
+.reference-site-en .value-card {
+  position: relative;
+  min-height: 280px;
+  overflow: hidden;
+  border: 1px solid #e2eaf4;
+  border-radius: 26px;
+  background: linear-gradient(155deg, #fff, #f7faff);
+  padding: 1.8rem;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.reference-site-en .value-card::after { content: ""; position: absolute; width: 130px; height: 130px; left: -70px; bottom: -70px; border-radius: 50%; background: rgba(19, 184, 166, 0.1); transition: transform 0.35s ease; }
+.reference-site-en .value-card:hover { transform: translateY(-8px); border-color: rgba(21, 84, 209, 0.26); box-shadow: 0 22px 48px rgba(23, 60, 110, 0.11); }
+.reference-site-en .value-card:hover::after { transform: scale(1.55); }
+.reference-site-en .value-icon,
+.reference-site-en .operation-icon {
+  display: grid;
+  width: 56px;
+  height: 56px;
+  place-items: center;
+  border-radius: 17px;
+  background: #eaf3ff;
+  color: var(--primary);
+  font-size: 1.35rem;
+}
+.reference-site-en .value-card h3 { margin: 1.7rem 0 0.75rem; font-size: 1.25rem; }
+.reference-site-en .value-card p { margin: 0; color: #59667a; line-height: 1.85; }
+.reference-site-en .value-card:nth-child(7) {
+  grid-column: 1 / -1;
+  min-height: 210px;
+}
+
+.reference-site-en .about-partners {
+  width: min(1240px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(5rem, 9vw, 9rem) 0;
+}
+.reference-site-en .partners-heading { margin-bottom: 3rem; }
+.reference-site-en .partners-viewport { overflow: hidden; }
+.reference-site-en .partners-track { width: 100%; }
+.reference-site-en .partners-set {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem 1.5rem;
+}
+.reference-site-en .partners-set-duplicate { display: none; }
+.reference-site-en .partner-logo {
+  display: grid;
+  min-width: 0;
+  min-height: 76px;
+  place-items: center;
+  margin: 0;
+  padding: 0.45rem;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.35s ease;
+}
+.reference-site-en .partner-logo:focus-visible { border-radius: 10px; outline: 3px solid rgba(21, 84, 209, 0.38); outline-offset: 4px; }
+.reference-site-en .partner-logo img {
+  display: block;
+  width: 100%;
+  height: 43px;
+  object-fit: contain;
+  filter: grayscale(1);
+  opacity: 0.62;
+  transition: filter 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+}
+.reference-site-en .partner-logo:hover { transform: translateY(-4px); }
+.reference-site-en .partner-logo:hover img { filter: grayscale(0); opacity: 1; transform: scale(1.04); }
+.reference-site-en .about-operations { width: min(1240px, calc(100% - 2rem)); margin: 0 auto; padding: clamp(0rem, 0vw, 0rem) 0; }
+.reference-site-en .about-operations-intro { max-width: 960px; margin-inline: auto; text-align: center; }
+.reference-site-en .about-operations-intro .section-kicker { justify-content: center; }
+.reference-site-en .operations-grid { display: grid; margin-top: 3.5rem; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.reference-site-en .operation-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-content: start;
+  gap: 1.2rem;
+  border: 1px solid #dfe8f3;
+  border-radius: 26px;
+  background: #fff;
+  padding: clamp(1.6rem, 3vw, 2.4rem);
+  box-shadow: 0 16px 40px rgba(20, 51, 91, 0.06);
+}
+.reference-site-en .operation-card > h3,
+.reference-site-en .operation-card > p { grid-column: 2; }
+.reference-site-en .operation-card h3 { margin: 0.7rem 0 0; font-size: 1.28rem; }
+.reference-site-en .operation-card p { margin: 0; color: #59667a; line-height: 1.9; }
+.reference-site-en .operation-card-featured {
+  grid-column: 1 / -1;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  border: 0;
+  background: linear-gradient(130deg, #0d3c9d, #087e83);
+  color: #fff;
+  padding: clamp(2rem, 4vw, 3.5rem);
+}
+.reference-site-en .operation-card-featured .operation-icon { width: 74px; height: 74px; border-radius: 22px; background: rgba(255, 255, 255, 0.13); color: #76efe0; }
+.reference-site-en .operation-card-featured h3 { margin: 0 0 0.8rem; font-size: clamp(1.6rem, 2.5vw, 2.5rem); }
+.reference-site-en .operation-card-featured p { color: rgba(255, 255, 255, 0.79); }
+
+.reference-site-en .about-community { justify-content: center; margin-block: 2rem; text-align: center; }
+.reference-site-en .about-community .contact-cta-copy {
+  width: min(920px, 100%);
+  max-width: 920px;
+  margin-inline: auto;
+  text-align: center;
+}
+.reference-site-en .about-community .section-kicker { justify-content: center; margin-bottom: 0.9rem; color: #79f0df; }
+
+@media (max-width: 1024px) {
+  .reference-site-en .about-hero { grid-template-columns: 1fr; text-align: center; }
+  .reference-site-en .about-hero-content { margin: 0 auto; }
+  .reference-site-en .about-eyebrow { justify-content: center; }
+  .reference-site-en .about-hero-visual { min-height: 360px; }
+  .reference-site-en .about-tech-core { width: 300px; }
+  .reference-site-en .about-values-intro { grid-template-columns: 1fr; align-items: start; }
+  .reference-site-en .value-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reference-site-en .value-card:nth-child(7) { grid-column: 1 / -1; }
+}
+
+@media (max-width: 760px) {
+  .reference-site-en .about-hero { min-height: auto; padding-block: 5rem 6rem; }
+  .reference-site-en .about-hero h1 { font-size: clamp(2.35rem, 10.5vw, 3.7rem); line-height: 1.3; }
+  .reference-site-en .about-hero-visual { min-height: 320px; transform: scale(0.88); }
+  .reference-site-en .about-introduction-inner { grid-template-columns: 1fr; }
+  .reference-site-en .about-logo-panel { min-height: 240px; }
+  .reference-site-en .about-partners { width: 100%; padding-block: 4.5rem; }
+  .reference-site-en .partners-heading { width: calc(100% - 2rem); margin-inline: auto; }
+  .reference-site-en .partners-viewport {
+    direction: ltr;
+    width: 100%;
+    padding-block: 0.75rem;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  }
+  .reference-site-en .partners-track { display: flex; width: max-content; animation: partners-scroll 34s linear infinite; }
+  .reference-site-en .partners-set { display: flex; flex: none; gap: 0.85rem; padding-inline-end: 0.85rem; }
+  .reference-site-en .partners-set-duplicate { display: flex; }
+  .reference-site-en .partner-logo { flex: 0 0 34vw; min-height: 82px; padding: 0.45rem; }
+  .reference-site-en .partner-logo img { height: 46px; }
+  .reference-site-en .value-cards,
+.reference-site-en .operations-grid { grid-template-columns: 1fr; }
+  .reference-site-en .operation-card-featured { grid-column: auto; grid-template-columns: 1fr; }
+  .reference-site-en .operation-card-featured .operation-icon { margin-bottom: 0.5rem; }
+  .reference-site-en .operation-card { grid-template-columns: auto 1fr; }
+}
+
+@keyframes partners-scroll {
+  to { transform: translateX(-50%); }
+}
+
+@media (max-width: 480px) {
+  .reference-site-en .about-hero-visual { margin-inline: -1.5rem; transform: scale(0.77); }
+  .reference-site-en .about-tech-chip { font-size: 0.76rem; }
+  .reference-site-en .about-introduction,
+.reference-site-en .about-operations { padding-block: 4.5rem; }
+  .reference-site-en .operation-card { grid-template-columns: 1fr; }
+  .reference-site-en .operation-card > h3,
+.reference-site-en .operation-card > p { grid-column: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reference-site-en .about-tech-core::after { animation: none; }
+  .reference-site-en .partners-track { animation: none; }
+  .reference-site-en .partners-viewport { overflow-x: auto; }
+  .reference-site-en .value-card { transition: none; }
+}
+
+/* Left-to-right layout; original Arabic content is retained. */
+
+/* More compact typography on the home landing page. */
+.reference-site-en .landing-main .slide-content p { font-size: clamp(1.15rem, 1.8vw, 1.8rem); }
+.reference-site-en .landing-main .solutions-heading > span,
+.reference-site-en .landing-main .industry-kicker,
+.reference-site-en .landing-main .product-reels-heading span { font-size: 0.82rem; }
+.reference-site-en .landing-main .solutions-heading h2 { font-size: clamp(1.8rem, 3.2vw, 3.2rem); }
+.reference-site-en .landing-main .solution-title { font-size: clamp(0.95rem, 1.2vw, 1.15rem); }
+.reference-site-en .landing-main .solution-info h3 { font-size: 1.15rem; }
+.reference-site-en .landing-main .solution-info p { font-size: 0.86rem; }
+.reference-site-en .landing-main .industry-kicker { font-size: 0.94rem; }
+.reference-site-en .landing-main .industry-copy h2 { font-size: clamp(2.05rem, 3.4vw, 3.65rem); }
+.reference-site-en .landing-main .industry-office-title { font-size: clamp(1.95rem, 3.1vw, 3.3rem) !important; }
+.reference-site-en .landing-main .industry-copy p { font-size: clamp(1rem, 1.15vw, 1.12rem); }
+.reference-site-en .landing-main .product-reels-heading h2 { font-size: clamp(1.75rem, 3.1vw, 3rem); }
+.reference-site-en .landing-main .product-reels-heading p { font-size: 0.85rem; }
+.reference-site-en .landing-main .contact-cta h2 { font-size: clamp(1.75rem, 3.2vw, 3.2rem); }
+.reference-site-en .landing-main .contact-cta p { font-size: clamp(0.92rem, 1.1vw, 1.02rem); }
+
+@media (max-width: 640px) {
+  .reference-site-en .landing-main .solution-title { font-size: 0.82rem; }
+  .reference-site-en .landing-main .industry-copy h2 { font-size: clamp(1.85rem, 7.5vw, 2.5rem); }
+  .reference-site-en .landing-main .product-reels-heading h2 { font-size: 1.85rem; }
+}
+
+/* Smaller About Us typography without changing section dimensions. */
+.reference-site-en .about-main .about-hero h1 { font-size: clamp(2.2rem, 4.2vw, 4rem); }
+.reference-site-en .about-main .about-hero-content > p { font-size: clamp(0.95rem, 1.2vw, 1.12rem); }
+.reference-site-en .about-main .about-tech-core strong { font-size: clamp(2rem, 3.5vw, 3.5rem); }
+.reference-site-en .about-main .about-tech-chip { font-size: 0.76rem; }
+
+.reference-site-en .about-main .about-introduction-copy h2,
+.reference-site-en .about-main .about-section-heading h2,
+.reference-site-en .about-main .about-operations-intro h2 { font-size: clamp(1.9rem, 3.5vw, 3.55rem); }
+.reference-site-en .about-main .about-introduction-copy p,
+.reference-site-en .about-main .about-operations-intro p,
+.reference-site-en .about-main .about-section-heading > p,
+.reference-site-en .about-main .about-values-intro > p { font-size: clamp(0.9rem, 1vw, 1rem); }
+
+.reference-site-en .about-main .value-card h3 { font-size: 1.12rem; }
+.reference-site-en .about-main .value-card p { font-size: 0.9rem; }
+
+.reference-site-en .about-main .operation-card h3 { font-size: 1.14rem; }
+.reference-site-en .about-main .operation-card p { font-size: 0.9rem; }
+.reference-site-en .about-main .operation-card-featured h3 { font-size: clamp(1.45rem, 2.1vw, 2.1rem); }
+
+.reference-site-en .about-main .about-community h2 { font-size: clamp(1.8rem, 3.2vw, 3.3rem); }
+.reference-site-en .about-main .about-community p { font-size: clamp(0.92rem, 1.05vw, 1rem); }
+
+@media (max-width: 760px) {
+  .reference-site-en .about-main .about-hero h1 { font-size: clamp(2rem, 9vw, 3.1rem); }
+}
+
+/* Slightly smaller typography across all solution pages. */
+.reference-site-en .enterprise-main .enterprise-hero h1 { font-size: 2.25rem; }
+.reference-site-en .enterprise-main .enterprise-hero-content p { font-size: 1.3rem; }
+.reference-site-en .enterprise-main .enterprise-intro-text { font-size: clamp(1rem, 1.35vw, 1.2rem); }
+.reference-site-en .enterprise-main .enterprise-audience-heading > span,
+.reference-site-en .enterprise-main .enterprise-workflow-heading > span { font-size: 0.78rem; }
+.reference-site-en .enterprise-main .enterprise-audience-heading h2 { font-size: clamp(1.8rem, 3vw, 2.9rem); }
+.reference-site-en .enterprise-main .enterprise-audience-card { font-size: 0.94rem; }
+.reference-site-en .enterprise-main .enterprise-services-lead h2 { font-size: clamp(1.95rem, 3.6vw, 3.4rem); }
+.reference-site-en .enterprise-main .enterprise-services-lead p { font-size: clamp(0.94rem, 1.2vw, 1.05rem); }
+.reference-site-en .enterprise-main .enterprise-service-title h3 { font-size: clamp(1rem, 1.35vw, 1.18rem); }
+.reference-site-en .enterprise-main .cloud-service-title h3 small { font-size: 0.74em; }
+.reference-site-en .enterprise-main .enterprise-service-card > p { font-size: 0.9rem; }
+.reference-site-en .enterprise-main .retail-service-english { font-size: 0.73rem; }
+.reference-site-en .enterprise-main .retail-services .enterprise-service-card > p:not(.retail-service-partners) { font-size: 0.94rem; }
+.reference-site-en .enterprise-main .enterprise-workflow-heading h2 { font-size: clamp(1.85rem, 3.3vw, 3.35rem) !important; }
+.reference-site-en .enterprise-main .enterprise-workflow-heading p { font-size: clamp(0.94rem, 1.2vw, 1.03rem); }
+.reference-site-en .enterprise-main .enterprise-workflow-number { font-size: 0.78rem; }
+.reference-site-en .enterprise-main .enterprise-workflow-step h3 { font-size: clamp(0.95rem, 1.2vw, 1.08rem); }
+.reference-site-en .enterprise-main .enterprise-workflow-step p { font-size: 0.82rem; }
+.reference-site-en .enterprise-main .small-office-workflow-outcome p { font-size: 0.92rem; }
+.reference-site-en .enterprise-main .contact-cta h2 { font-size: clamp(1.8rem, 3.5vw, 3.5rem); }
+.reference-site-en .enterprise-main .contact-cta p { font-size: clamp(0.94rem, 1.15vw, 1.05rem); }
+
+@media (max-width: 640px) {
+  .reference-site-en .enterprise-main .enterprise-hero h1 { font-size: clamp(1.65rem, 7vw, 2.05rem); }
+  .reference-site-en .enterprise-main .enterprise-hero-content p { font-size: 1rem; }
+  .reference-site-en .enterprise-main .enterprise-services-lead h2,
+.reference-site-en .enterprise-main .enterprise-workflow-heading h2 { font-size: clamp(1.55rem, 7vw, 2rem) !important; }
+}
+
+/* Smaller text only; the original Why MCTC layout and scroll effect stay unchanged. */
+.reference-site-en .enterprise-main :is(.access-control-why,
+.reference-site-en .cloud-services-why,
+.reference-site-en .managed-it-why) .enterprise-workflow-heading > span {
+  font-size: 0.72rem;
+}
+
+.reference-site-en .enterprise-main :is(.access-control-why,
+.reference-site-en .cloud-services-why,
+.reference-site-en .managed-it-why) .enterprise-workflow-heading h2 {
+  font-size: clamp(1.7rem, 2.8vw, 2.75rem) !important;
+}
+
+.reference-site-en .enterprise-main :is(.access-control-why,
+.reference-site-en .cloud-services-why,
+.reference-site-en .managed-it-why) .enterprise-workflow-step h3 {
+  font-size: clamp(0.9rem, 1.05vw, 1rem);
+}
+
+.reference-site-en .enterprise-main :is(.access-control-why,
+.reference-site-en .cloud-services-why,
+.reference-site-en .managed-it-why) .enterprise-workflow-step p {
+  font-size: 0.78rem;
+}
+

@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.migrations
+.env.runtime-tmp
+.npm-cache
+server/.tools/
+client/.npm-cache
+server/uploads/*
+!server/uploads/.gitkeep

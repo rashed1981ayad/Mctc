@@ -1,0 +1,57 @@
+# Both DNS names must point to this server. Keep Node bound to 127.0.0.1:5000;
+# do not expose port 5000 publicly. Install TLS certificates before enabling.
+# If a CDN sits in front of Nginx, configure real_ip using only the CDN's
+# verified source ranges before relying on $remote_addr for per-client limits.
+
+server {
+    listen 80;
+    server_name mctc.ly www.mctc.ly admin.mctc.ly;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name mctc.ly www.mctc.ly;
+
+    ssl_certificate /etc/letsencrypt/live/mctc.ly/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/mctc.ly/privkey.pem;
+
+    client_max_body_size 25m;
+    location / {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+
+server {
+    listen 443 ssl http2;
+    server_name admin.mctc.ly;
+
+    # PDF structural inspection and antivirus finish before upload publication.
+    proxy_read_timeout 240s;
+
+    ssl_certificate /etc/letsencrypt/live/admin.mctc.ly/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/admin.mctc.ly/privkey.pem;
+
+    client_max_body_size 25m;
+    add_header X-Frame-Options DENY always;
+    add_header Referrer-Policy same-origin always;
+    location ^~ /uploads/ {
+        return 404;
+    }
+    location = /uploads {
+        return 404;
+    }
+    location / {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}

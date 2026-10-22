@@ -1,0 +1,13 @@
+{
+  "name": "almutqaddim-products-platform",
+  "private": true,
+  "version": "3.0.0",
+  "scripts": {
+    "dev": "concurrently -n API,WEB,ADMIN -c blue,cyan,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\" \"npm --prefix admin run dev\"",
+    "build": "npm --prefix client run build && npm --prefix admin run build",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

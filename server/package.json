@@ -1,0 +1,24 @@
+{
+  "name": "almutqaddim-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch scripts/dev.mjs",
+    "start": "node scripts/start.mjs",
+    "db:prepare": "node scripts/prepare-db.mjs",
+    "check:production": "node scripts/check-production.mjs",
+    "pdf:scan": "node scripts/scan-pdfs.mjs",
+    "db:seed": "node src/seed.js",
+    "admin:password": "node scripts/set-admin-password.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.7.0",
+    "multer": "^2.0.0",
+    "pg": "^8.13.1",
+    "sharp": "^0.34.5"
+  }
+}

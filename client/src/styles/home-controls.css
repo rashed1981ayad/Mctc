@@ -1,0 +1,122 @@
+/* Navigation controls shared by the Arabic and English landing-page sliders. */
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls {
+  position: absolute;
+  right: auto;
+  left: 50%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  width: max-content;
+  max-width: calc(100% - 1.5rem);
+  padding: 0;
+  transform: translateX(-50%);
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls {
+  bottom: 1.3rem;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-arrow,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-arrow {
+  position: static;
+  flex: 0 0 32px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 1.65rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-arrow:hover,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-arrow:focus-visible,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-arrow:hover,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-arrow:focus-visible {
+  background: transparent;
+  color: #7bd7c9;
+  transform: none;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-arrow:focus-visible,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots button:focus-visible,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-arrow:focus-visible,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots button:focus-visible {
+  outline: 2px solid #7bd7c9;
+  outline-offset: 2px;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  transform: none;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots button,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots button {
+  position: relative;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  transition: none;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots button::after,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  transition: width 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots button.is-active,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots button.is-active {
+  width: 28px;
+  border: 0;
+  background: transparent;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls .slider-dots button.is-active::after,
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls .industry-dots button.is-active::after {
+  width: 21px;
+  border-color: #fff;
+  background: #fff;
+}
+
+:is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls {
+  bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  :is(.reference-site-ar, .reference-site-en, .reference-site-fr) .slider-controls {
+    bottom: 1rem;
+  }
+
+  :is(.reference-site-ar, .reference-site-en, .reference-site-fr) .industry-controls {
+    bottom: 1.25rem;
+  }
+}

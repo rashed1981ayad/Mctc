@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <link rel="icon" type="image/webp" href="/favicon.webp" />
+    <title>تسجيل الدخول | لوحة تحكم المتقدم</title>
+    <link rel="stylesheet" href="/admin-login.css" />
+  </head>
+  <body>
+    <main>
+      <h1>دخول لوحة التحكم</h1>
+      <form id="login-form">
+        <label>البريد الإلكتروني<input name="email" type="email" autocomplete="username" required /></label>
+        <label>كلمة المرور<input name="password" type="password" autocomplete="current-password" required /></label>
+        <div id="login-turnstile" aria-label="التحقق الأمني"></div>
+        <p id="message" role="alert"></p>
+        <button type="submit" disabled>تسجيل الدخول</button>
+      </form>
+    </main>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
+    <script src="/admin-login.js" defer></script>
+  </body>
+</html>
